@@ -1,11 +1,12 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.scss";
+
+import Calculator from "./components/Calculator";
 
 export const App = () => {
     return (
         <div className="App">
-            <img src={logo} className="App-logo" alt="logo" />
+            <Calculator />
         </div>
     );
 };
